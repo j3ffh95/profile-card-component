@@ -38,7 +38,7 @@ main::after {
   transform: rotate(360deg);
 }
 
-/* main::before {
+main::before {
   content: "";
   right: -700px;
   bottom: -400px;
@@ -46,4 +46,4 @@ main::after {
   height: 100%;
   position: absolute;
   background: url("./images/bg-pattern-bottom.svg") no-repeat;
-} */
+}
