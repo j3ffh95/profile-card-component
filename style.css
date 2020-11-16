@@ -9,4 +9,13 @@
 body {
   font-size: 1.125rem;
   line-height: 1.5;
+  color: #fff;
+}
+
+main {
+  background-color: #1ba1ad;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
