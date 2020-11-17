@@ -12,6 +12,18 @@ body {
   color: #fff;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.5rem;
+}
+
 main {
   background-color: #1ba1ad;
   height: 100vh;
@@ -22,11 +34,19 @@ main {
   overflow: hidden;
 }
 
-main > * {
-  z-index: 2;
+main .top-img {
+  position: absolute;
+  top: -400px;
+  left: -200px;
+  width: 100%;
+  height: 100%;
 }
 
-main::after {
+main > * {
+  z-index: 1;
+}
+
+/* main::after {
   content: "";
   top: -400px;
   left: -300px;
@@ -35,6 +55,7 @@ main::after {
   height: auto;
   position: absolute;
   background: url("./images/bg-pattern-top.svg") no-repeat;
+  background-size: contain;
   transform: rotate(360deg);
 }
 
@@ -46,4 +67,4 @@ main::before {
   height: 100%;
   position: absolute;
   background: url("./images/bg-pattern-bottom.svg") no-repeat;
-}
+} */
