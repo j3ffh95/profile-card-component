@@ -86,7 +86,7 @@ main::before {
   width: 100%;
   height: 40%;
   background: url("./images/bg-pattern-card.svg");
-  z-index: -1;
+  z-index: -2;
 }
 
 .top-container {
@@ -95,9 +95,32 @@ main::before {
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid #333;
+  padding: 3rem 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.top-container .img::after {
+  content: "";
+  position: absolute;
+  top: 85px;
+  left: 121px;
+  width: 108px;
+  height: 108px;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: -1;
 }
 
 .top-container .img img {
   border-radius: 50%;
   margin: 10px;
+}
+
+.top-container h1 {
+  font-size: 1.2rem;
+}
+
+.bottom-container {
+  display: flex;
 }
