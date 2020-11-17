@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
 }
-
+/* Main Styles */
 body {
   font-size: 1.125rem;
   line-height: 1.5;
@@ -21,7 +21,12 @@ img {
 .attribution {
   position: absolute;
   bottom: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+/* Utility Styles */
+.gray-text {
+  color: #b0b0b0;
 }
 
 main {
@@ -95,7 +100,7 @@ main::before {
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid #333;
-  padding: 3rem 1rem;
+  padding: 3rem 1rem 1.2rem;
   margin-top: 2rem;
   text-align: center;
 }
