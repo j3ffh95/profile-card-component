@@ -70,10 +70,23 @@ main::before {
 } */
 
 .card {
+  position: relative;
   width: 350px;
   background-color: #fff;
   color: #333;
   border-radius: 20px;
+  overflow: hidden;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: url("./images/bg-pattern-card.svg");
+  z-index: -1;
 }
 
 .top-container {
@@ -82,4 +95,9 @@ main::before {
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid #333;
+}
+
+.top-container .img img {
+  border-radius: 50%;
+  margin: 10px;
 }
