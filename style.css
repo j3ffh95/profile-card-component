@@ -9,6 +9,7 @@
 }
 /* Main Styles */
 body {
+  font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
   line-height: 1.5;
   color: #fff;
@@ -29,6 +30,7 @@ img {
 /* Utility Styles */
 .gray-text {
   color: #b0b0b0;
+  font-weight: 400;
 }
 
 main {
